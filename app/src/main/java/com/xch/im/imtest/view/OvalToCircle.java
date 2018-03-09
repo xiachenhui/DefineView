@@ -1,4 +1,4 @@
-package com.xch.im.imtest;
+package com.xch.im.imtest.view;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -121,7 +121,7 @@ public class OvalToCircle extends View {
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
-        
+
         width = w;
         height = h;
         default_two_circle_distance = (w - h) / 2;
