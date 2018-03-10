@@ -1,11 +1,10 @@
-package com.xch.im.imtest.activity
+package com.xch.im.definetest.activity
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
-import android.widget.Button
-import com.xch.im.imtest.R
+import com.xch.im.definetest.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 

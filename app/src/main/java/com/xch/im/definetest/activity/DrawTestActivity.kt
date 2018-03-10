@@ -1,9 +1,9 @@
-package com.xch.im.imtest.activity
+package com.xch.im.definetest.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-import com.xch.im.imtest.R
+import com.xch.im.definetest.R
 
 class DrawTestActivity : AppCompatActivity() {
 

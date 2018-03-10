@@ -1,12 +1,11 @@
-package com.xch.im.imtest.view
+package com.xch.im.definetest.view
 
 import android.content.Context
 import android.graphics.*
-import android.text.TextPaint
 import android.util.AttributeSet
 import android.util.Log
 import android.view.View
-import com.xch.im.imtest.bean.PercentBean
+import com.xch.im.definetest.bean.PercentBean
 
 /**
  * Created by Administrator on 2018/3/10 0010.

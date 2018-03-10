@@ -1,4 +1,4 @@
-package com.xch.im.imtest;
+package com.xch.im.definetest;
 
 import org.junit.Test;
 

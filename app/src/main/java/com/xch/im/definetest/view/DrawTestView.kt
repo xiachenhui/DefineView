@@ -1,4 +1,4 @@
-package com.xch.im.imtest.view
+package com.xch.im.definetest.view
 
 import android.content.Context
 import android.graphics.Canvas

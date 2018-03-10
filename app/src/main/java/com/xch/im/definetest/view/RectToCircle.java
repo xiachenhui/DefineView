@@ -1,4 +1,4 @@
-package com.xch.im.imtest.view;
+package com.xch.im.definetest.view;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;

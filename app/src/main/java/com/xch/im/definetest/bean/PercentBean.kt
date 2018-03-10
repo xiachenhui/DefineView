@@ -1,4 +1,4 @@
-package com.xch.im.imtest.bean
+package com.xch.im.definetest.bean
 
 /**
  * Created by Administrator on 2018/3/10 0010.

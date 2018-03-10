@@ -1,10 +1,10 @@
-package com.xch.im.imtest.activity
+package com.xch.im.definetest.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-import com.xch.im.imtest.R
-import com.xch.im.imtest.bean.PercentBean
+import com.xch.im.definetest.R
+import com.xch.im.definetest.bean.PercentBean
 import kotlinx.android.synthetic.main.activity_percent.*
 
 class PercentActivity : AppCompatActivity() {

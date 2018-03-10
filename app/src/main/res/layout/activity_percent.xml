@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.xch.im.imtest.activity.PercentActivity">
+    tools:context="com.xch.im.definetest.activity.PercentActivity">
 
 
-    <com.xch.im.imtest.view.PercentView
+    <com.xch.im.definetest.view.PercentView
         android:id="@+id/percent_view"
         android:layout_width="500dp"
         android:layout_height="500dp"

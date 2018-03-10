@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.xch.im.imtest.activity.DrawTestActivity">
+    tools:context="com.xch.im.definetest.activity.DrawTestActivity">
 
-    <com.xch.im.imtest.view.DrawTestView
+    <com.xch.im.definetest.view.DrawTestView
         app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintTop_toBottomOf="parent"
         android:layout_width="match_parent"
