@@ -10,12 +10,13 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
-    private var mBtn_button: Button? = null
 
 
     override fun onClick(v: View?) {
         when (v?.id) {
             R.id.main_btn_button -> startActivity(Intent(this, ButtonViewActivity::class.java))
+            R.id.main_btn_test -> startActivity(Intent(this, DrawTestActivity::class.java))
+            R.id.main_btn_percent -> startActivity(Intent(this, PercentActivity::class.java))
         }
     }
 
@@ -30,6 +31,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun initListener() {
         main_btn_button.setOnClickListener(this)
+        main_btn_test.setOnClickListener(this)
+        main_btn_percent.setOnClickListener(this)
     }
 }
 

@@ -12,6 +12,25 @@
         android:layout_height="wrap_content"
         android:text="自定义按钮动画"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="parent" />
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
 
+    <Button
+        android:id="@+id/main_btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义练习"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_btn_button" />
+
+
+    <Button
+        android:id="@+id/main_btn_percent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="饼状图"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_btn_test" />
 </android.support.constraint.ConstraintLayout>

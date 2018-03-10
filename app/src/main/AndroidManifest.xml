@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.ButtonViewActivity"></activity>
+        <activity android:name=".activity.ButtonViewActivity" />
+        <activity android:name=".activity.DrawTestActivity" />
+        <activity android:name=".activity.PercentActivity"></activity>
     </application>
 
 </manifest>

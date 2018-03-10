@@ -19,13 +19,11 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 
-import static android.R.attr.duration;
-
 /**
  * Created by Administrator on 2018/3/8 0008.
  */
 
-public class OvalToCircle extends View {
+public class RectToCircle extends View {
 
     RectF mOvalRectF = new RectF();
     private Paint mOvalPaint;
@@ -70,17 +68,17 @@ public class OvalToCircle extends View {
 
     private boolean startDrawOk=false;//是否开始画对勾
 
-    public OvalToCircle(Context context) {
+    public RectToCircle(Context context) {
         this(context, null);
 
     }
 
-    public OvalToCircle(Context context, AttributeSet attrs) {
+    public RectToCircle(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
 
     }
 
-    public OvalToCircle(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public RectToCircle(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initPaint();
         this.setOnClickListener(new OnClickListener() {
