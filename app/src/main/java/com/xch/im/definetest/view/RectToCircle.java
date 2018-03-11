@@ -4,6 +4,7 @@ import android.animation.Animator;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -14,15 +15,19 @@ import android.graphics.PathEffect;
 import android.graphics.PathMeasure;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import android.support.annotation.Nullable;
+
+import android.os.Build;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
+
+import org.jetbrains.annotations.Nullable;
 
 /**
  * Created by Administrator on 2018/3/8 0008.
  */
 
+@TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class RectToCircle extends View {
 
     RectF mOvalRectF = new RectF();
