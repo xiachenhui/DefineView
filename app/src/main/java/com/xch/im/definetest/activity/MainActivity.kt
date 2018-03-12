@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.main_btn_test -> startActivity(Intent(this, DrawTestActivity::class.java))
             R.id.main_btn_percent -> startActivity(Intent(this, PercentActivity::class.java))
             R.id.main_btn_canvas -> startActivity(Intent(this, CanvasTestActivity::class.java))
+            R.id.main_btn_picture -> startActivity(Intent(this, PictureActivity::class.java))
+            R.id.main_btn_progress -> startActivity(Intent(this, ProgressActivity::class.java))
         }
     }
 
@@ -34,6 +36,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         main_btn_test.setOnClickListener(this)
         main_btn_percent.setOnClickListener(this)
         main_btn_canvas.setOnClickListener(this)
+        main_btn_picture.setOnClickListener(this)
+        main_btn_progress.setOnClickListener(this)
     }
 }
 

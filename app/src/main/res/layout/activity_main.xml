@@ -43,4 +43,25 @@
         app:layout_constraintLeft_toLeftOf="@+id/main_btn_button"
         app:layout_constraintRight_toRightOf="@+id/main_btn_button"
         app:layout_constraintTop_toBottomOf="@+id/main_btn_percent" />
+
+    <Button
+        android:id="@+id/main_btn_picture"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="画Picture"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="@+id/main_btn_button"
+        app:layout_constraintRight_toRightOf="@+id/main_btn_button"
+        app:layout_constraintTop_toBottomOf="@+id/main_btn_canvas" />
+
+
+    <Button
+        android:id="@+id/main_btn_progress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="进度条"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="@+id/main_btn_button"
+        app:layout_constraintRight_toRightOf="@+id/main_btn_button"
+        app:layout_constraintTop_toBottomOf="@+id/main_btn_picture" />
 </android.support.constraint.ConstraintLayout>

@@ -19,7 +19,9 @@
         <activity android:name=".activity.ButtonViewActivity" />
         <activity android:name=".activity.DrawTestActivity" />
         <activity android:name=".activity.PercentActivity" />
-        <activity android:name=".activity.CanvasTestActivity"></activity>
+        <activity android:name=".activity.CanvasTestActivity" />
+        <activity android:name=".activity.PictureActivity" />
+        <activity android:name=".activity.ProgressActivity"></activity>
     </application>
 
 </manifest>
