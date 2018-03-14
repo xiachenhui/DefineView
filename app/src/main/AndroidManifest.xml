@@ -21,7 +21,8 @@
         <activity android:name=".activity.PercentActivity" />
         <activity android:name=".activity.CanvasTestActivity" />
         <activity android:name=".activity.PictureActivity" />
-        <activity android:name=".activity.ProgressActivity"></activity>
+        <activity android:name=".activity.ProgressActivity" />
+        <activity android:name=".activity.RadarActivity"></activity>
     </application>
 
 </manifest>

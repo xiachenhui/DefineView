@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.main_btn_canvas -> startActivity(Intent(this, CanvasTestActivity::class.java))
             R.id.main_btn_picture -> startActivity(Intent(this, PictureActivity::class.java))
             R.id.main_btn_progress -> startActivity(Intent(this, ProgressActivity::class.java))
+            R.id.main_btn_radar -> startActivity(Intent(this, RadarActivity::class.java))
         }
     }
 
@@ -38,6 +39,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         main_btn_canvas.setOnClickListener(this)
         main_btn_picture.setOnClickListener(this)
         main_btn_progress.setOnClickListener(this)
+        main_btn_radar.setOnClickListener(this)
     }
 }
 

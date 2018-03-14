@@ -64,4 +64,14 @@
         app:layout_constraintLeft_toLeftOf="@+id/main_btn_button"
         app:layout_constraintRight_toRightOf="@+id/main_btn_button"
         app:layout_constraintTop_toBottomOf="@+id/main_btn_picture" />
+
+    <Button
+        android:id="@+id/main_btn_radar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="雷达图"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="@+id/main_btn_button"
+        app:layout_constraintRight_toRightOf="@+id/main_btn_button"
+        app:layout_constraintTop_toBottomOf="@+id/main_btn_progress" />
 </android.support.constraint.ConstraintLayout>
